@@ -8,14 +8,12 @@ This is a small godot engine library written in C ++ and integrated with GDNativ
 
 This library contains functions for converting values:
 
-float  --> hex
-
-hex    --> float
-
-hex    --> binary
-
-binary --> hex
-
+```bash
+bin2hex(String) -> PoolByteArray
+hex2bin(PoolByteArray) -> String 
+hex2float(PoolByteArray) -> float 
+float2hex(float) -> PoolByteArray 
+```
 
 ### Usage
 
