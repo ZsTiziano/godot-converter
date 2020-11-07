@@ -6,7 +6,7 @@
 ### Info
 This is a small godot engine library written in C ++ and integrated with GDNative.
 
-This library contains functions for converting values:
+# contained functions:
 
 ```bash
 bin2hex(String) -> PoolByteArray
