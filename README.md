@@ -19,11 +19,7 @@ binary --> hex
 
 ### Usage
 
-We recommend using Git for managing your project. The instructions below assume
-you're using Git. Alternatively, you can download the source code directly from
-GitHub. In this case, you need to download both
-[godot-cpp](https://github.com/GodotNativeTools/godot-cpp) and
-[godot_headers](https://github.com/GodotNativeTools/godot_headers).
+Clone the project
 
 ```bash
 git clone https://github.com/ZsTiziano/godot-converter.git
