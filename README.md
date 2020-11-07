@@ -26,7 +26,30 @@ GitHub. In this case, you need to download both
 [godot_headers](https://github.com/GodotNativeTools/godot_headers).
 
 ```bash
-git clone --recursive https://github.com/ZsTiziano/godot-converter.git
+git clone https://github.com/ZsTiziano/godot-converter.git
+```
+
+### Add godot-cpp
+
+We recommend using Git for managing your project. The instructions below assume
+you're using Git. Alternatively, you can download the source code directly from
+GitHub. In this case, you need to download both
+[godot-cpp](https://github.com/GodotNativeTools/godot-cpp) and
+[godot_headers](https://github.com/GodotNativeTools/godot_headers).
+
+```bash
+git submodule add https://github.com/GodotNativeTools/godot-cpp
+git submodule update --init --recursive
+```
+
+Right now, our directory structure should look like this:
+
+```text
+godot-converter/
+├─godot-cpp/
+| └─godot_headers/
+├─sample/
+└─src/
 ```
 
 ### Compiling the C++ bindings library
