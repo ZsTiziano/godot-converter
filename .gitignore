@@ -1,3 +1,9 @@
 # Godot-specific ignores
 
-#/godot-cpp
+# ignore directory
+/sample/.import
+
+# ingore files
+*.so
+*.dblite
+
