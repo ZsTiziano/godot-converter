@@ -69,7 +69,7 @@ from the host platform.
 The resulting library will be created in `godot-cpp/bin/`, take note of its name
 as it'll differ depending on the target platform.
 
-and in your project main folder:
+and in the project main folder:
 
 ```bash
 scons platform=<your platform>
