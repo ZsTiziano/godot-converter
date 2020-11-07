@@ -8,10 +8,10 @@ This is a small godot engine library written in C ++ and integrated with GDNativ
 
 This library contains functions for converting values:
 
-# float  --> hex
-# hex    --> float
-# hex    --> binary
-# binary --> hex
+float  --> hex
+hex    --> float
+hex    --> binary
+binary --> hex
 
 
 ### Usage
