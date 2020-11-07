@@ -52,12 +52,12 @@ and in your project main folder:
 scons platform=<your platform>
 ```
 
-## For more information on GDNative consult the repository:
+### For more information on GDNative consult the repository:
 
 https://github.com/GodotNativeTools/godot-cpp
 
 
-# License:
+### License:
 
 - **Code**: GPLv3
 
