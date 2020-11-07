@@ -1,12 +1,12 @@
-## Godot engine converter
-    GDNative modules for Godot engine - converter to hex - float - binary 
+## Godot engine converter - GDNative modules
+
     
 ![image](https://user-images.githubusercontent.com/21335398/98444682-550de000-2113-11eb-9366-ee8f60e7fa06.png)
 
 ### Info
 This is a small godot engine library written in C ++ and integrated with GDNative.
 
-# contained functions:
+### contained functions:
 
 ```bash
 bin2hex(String) -> PoolByteArray
